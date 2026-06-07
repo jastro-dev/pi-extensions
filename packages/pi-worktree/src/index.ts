@@ -1,0 +1,55 @@
+export {
+	buildWorktreeCdItems,
+	chooseGeneratedNames,
+	classifyCleanupEntries,
+	escapeTableCell,
+	formatCdCommand,
+	formatHelp,
+	localBranchName,
+	normalizePathForComparison,
+	parseGitHubWorkItemUrl,
+	parseIssueUrl,
+	parseWorktreeArgs,
+	parseWorktreePorcelain,
+	selectWorktreeCdTarget,
+	slugifyTask,
+	sortWorktreeCdEntries,
+	tokenizeArgs,
+} from "./worktree/commands.ts";
+export { executeParsedWorktreeCommand, runWorktreeCommand, worktreeCommandResultToText } from "./worktree/dispatcher.ts";
+export {
+	addWorktree,
+	cleanupWorktrees,
+	createWorktreeWithPath,
+	formatCreatedWorktree,
+	formatScratchSelection,
+	git,
+	listWorktrees,
+	loadWorktrees,
+	requireGit,
+	resolveWorktreeCdTarget,
+	scratchWorktree,
+	withWorktreeRecentness,
+} from "./worktree/git-operations.ts";
+export { clearParentSession, createDestinationSessionFile, moveSessionToWorktree, requirePersistentSessionFile, toMoveSessionContext } from "./worktree/session.ts";
+export { presentWorktreeCommandResult, selectWorktreeFromMenu, showWorktreeOutputOverlay } from "./worktree/presentation.ts";
+export type {
+	CleanupClassification,
+	CreateWorktreeArgs,
+	CreatedWorktree,
+	EnvLinkSummary,
+	Exec,
+	ExecResult,
+	InteractiveCommandOptions,
+	MoveSessionContext,
+	ParsedArgs,
+	Runtime,
+	ScratchWorktreeResult,
+	SessionManagerStatic,
+	WorktreeCommandResult,
+	WorktreeConfig,
+	WorktreeEntry,
+	WorktreeListOverlayDeps,
+	WorktreeStatus,
+} from "./worktree/types.ts";
+export { default } from "./worktree/extension.ts";

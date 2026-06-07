@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "packageId": "pi-worktree",
+  "publicRepoSlug": "jastro-dev/pi-extensions",
+  "files": {
+    "package.json": "ca2b36f167c44ce0fffb69a315c68b8ba82489d74327981765a8173c5dbc37d5",
+    "src/index.ts": "912ac2d5bb95e549f3674c138013923ed8fac6ea03a7905411f227223e0b22b0",
+    "src/worktree/commands.ts": "64dc6583b42188a6b62f4eab2b4621f77dfb60f53fc8f2518f4c69093d1f7538",
+    "src/worktree/constants.ts": "d10c38cf5105afc8735db4427d51fe8e03ce69bb3418835f9310ae12b2537569",
+    "src/worktree/dispatcher.ts": "5e4303bbbcf13169197634e144c2730147551c243746f3f1acd80de2fa96b9f0",
+    "src/worktree/env-policy.ts": "6ed327f07093bfa0396c8da2ecd3531f8d461eecd4f5a33bd8f60055a84744be",
+    "src/worktree/extension.ts": "4d0a810272516d38701ee38d5095f2d341fd8af8647bad6765a9dfcf23950fdd",
+    "src/worktree/git-operations.ts": "ef4c57683a29e77ee2cd9ea35d6530d35cb610abd1189331667d328dc87bb6cb",
+    "src/worktree/presentation.ts": "189b4b95824d973d2485b5590befd488ae797eeffa3e6c9b164b73ea43b750ec",
+    "src/worktree/session.ts": "c85bb24362cbd1e858c1d799060a77b784b0d5175f92a52aa2b6fd3e52623eea",
+    "src/worktree/types.ts": "8e8b778e09870009f822ee6d55a2ca280ab0c04bc3f890e713f0ee46b4903266",
+    "tests/worktree.test.ts": "77675078f0090b5310c6db4e3bccb7ab48577399a6387d8f79d77263c6eca266"
+  }
+}

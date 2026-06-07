@@ -1,0 +1,56 @@
+{
+	"name": "pi-worktree",
+	"version": "0.1.0",
+	"description": "Pi extension for creating, switching, and cleaning up Git worktrees.",
+	"type": "module",
+	"main": "src/index.ts",
+	"exports": "./src/index.ts",
+	"files": [
+		"src",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"test": "node --import tsx --test tests/*.test.ts",
+		"typecheck": "tsc --noEmit"
+	},
+	"engines": {
+		"node": ">=24.0.0"
+	},
+	"keywords": [
+		"pi-package",
+		"pi",
+		"pi-extension",
+		"git",
+		"worktree"
+	],
+	"pi": {
+		"extensions": [
+			"./src/index.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "0.78.0",
+		"@earendil-works/pi-tui": "0.78.0"
+	},
+	"devDependencies": {
+		"@earendil-works/pi-coding-agent": "0.78.0",
+		"@earendil-works/pi-tui": "0.78.0",
+		"@types/node": "24.5.2",
+		"tsx": "4.20.5",
+		"typescript": "5.9.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jastro-dev/pi-extensions.git",
+		"directory": "packages/pi-worktree"
+	},
+	"homepage": "https://github.com/jastro-dev/pi-extensions/tree/main/packages/pi-worktree#readme",
+	"bugs": {
+		"url": "https://github.com/jastro-dev/pi-extensions/issues"
+	},
+	"license": "MIT"
+}
