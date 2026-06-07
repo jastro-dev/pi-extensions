@@ -7,8 +7,7 @@
 	"exports": "./src/index.ts",
 	"files": [
 		"src",
-		"README.md",
-		"LICENSE"
+		"README.md"
 	],
 	"scripts": {
 		"test": "node --import tsx --test tests/*.test.ts",

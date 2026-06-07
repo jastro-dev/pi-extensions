@@ -49,4 +49,4 @@ For GitHub issue and PR links, `/worktree create` and `/worktree ccd` expand the
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](../../LICENSE).
